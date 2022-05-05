@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.amps-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.amp {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.waters-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.water {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+}
+.candies-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.candy {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+}
+.teas-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tea {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+}
