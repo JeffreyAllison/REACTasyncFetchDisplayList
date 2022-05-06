@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>The internet is just a list of lists</p>
       <AmpList amps={amps} />
       <WaterBodiesList waterBodies={waterBodies} />
       <CandiesList candies={candies} />
