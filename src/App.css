@@ -46,7 +46,8 @@
   background-color: white;
   color: black;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  border: solid black 5px;
 }
 
 .waters-list {
@@ -58,7 +59,8 @@
   background-color: white;
   color: black;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  border: solid black 5px;
 }
 .candies-list {
   display: flex;
@@ -69,7 +71,8 @@
   background-color: white;
   color: black;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  border: solid black 5px;
 }
 .teas-list {
   display: flex;
@@ -80,5 +83,6 @@
   background-color: white;
   color: black;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  border: solid black 5px;
 }

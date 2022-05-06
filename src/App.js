@@ -4,6 +4,10 @@ import { getAmps } from './services/fetch-utils';
 import { getWaterBodies } from './services/fetch-utils';
 import { getCandies } from './services/fetch-utils';
 import { getTeaKinds } from './services/fetch-utils';
+import AmpList from './AmpList';
+import WaterBodiesList from './WaterBodiesList';
+import CandiesList from './CandiesList';
+import TeaKindsList from './TeaKindsList';
 
 function App() {
   const [amps, setAmps] = useState([]);
@@ -25,7 +29,14 @@ function App() {
     setTeaKinds(teaKindsResponse);
   }, []);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <AmpList amps={amps} />
+      <WaterBodiesList waterBodies={waterBodies} />
+      <CandiesList candies={candies} />
+      <TeaKindsList teaKinds={teaKinds} />
+    </div>
+  );
 }
 
 export default App;
